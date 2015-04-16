@@ -33,3 +33,8 @@ mod 'stephenrjohnson/puppet', '0.0.23'
 mod 'yguenane/augeas', '0.1.1'
 mod 'puppetlabs/aws'
 
+
+# Modules from Github
+mod 'puppet_cpm_modules',
+  :git => 'git@github.com:Interencheres/puppet_cpm_modules.git'
+
