@@ -3,6 +3,6 @@ Package {
 }
 
 class { '::puppet::master':
-  storeconfigs => true,
+  storeconfigs => false,
   environments => directory,
 }

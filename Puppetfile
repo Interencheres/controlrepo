@@ -31,4 +31,5 @@ mod 'saz/ssh', '2.4.0'
 mod 'saz/sudo', '3.0.6'
 mod 'stephenrjohnson/puppet', '0.0.23'
 mod 'yguenane/augeas', '0.1.1'
+mod 'puppetlabs/aws'
 
