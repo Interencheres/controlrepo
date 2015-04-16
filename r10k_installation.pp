@@ -11,7 +11,7 @@ class { 'r10k':
       'prefix'  => false,
     },
     'hiera'  => {
-      'remote'  => 'git@github.com:puppetinabox/hiera.git',
+      'remote'  => 'git@github.com:Interencheres/hiera.git',
       'basedir' => '/etc/puppet/hiera',
       'prefix'  => false,
     }
