@@ -7,7 +7,7 @@ file {'/etc/puppet/hiera':
 }
 class {'hiera':
   hierarchy => [
-    'puppet_role/%{puppet_role}',
+    'puppet_role/%{role}',
     'clientcert/%{clientcert}',
     '%{environment}',
     'global',
