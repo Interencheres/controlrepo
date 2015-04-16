@@ -36,6 +36,6 @@ mod 'puppetlabs/aws'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
-  :git => 'git@github.com:Interencheres/puppet_cpm_modules.git'
-  :ref => 'production'
+  :git    => 'git@github.com:Interencheres/puppet_cpm_modules.git'
+  :branch => 'production'
 
