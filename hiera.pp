@@ -12,5 +12,5 @@ class {'hiera':
     '%{environment}',
     'global',
   ],
-  datadir   => '/etc/puppet/hiera/data/',
+  datadir   => '/etc/puppet/hiera/%{::environment}/',
 }
