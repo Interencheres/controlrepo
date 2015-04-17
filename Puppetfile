@@ -31,7 +31,7 @@ mod 'puppetlabs/xinetd', '1.4.0'
 mod 'richardc/datacat', '0.4.3'
 mod 'saz/ssh', '2.4.0'
 mod 'saz/sudo', '3.0.6'
-mod 'stephenrjohnson/puppet', '0.0.23'
+mod 'stephenrjohnson/puppet'
 mod 'yguenane/augeas', '0.1.1'
 
 # Modules from Github
