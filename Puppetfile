@@ -7,11 +7,12 @@ mod 'palli/createrepo', '0.9.5'
 mod 'puppetlabs/activemq', '0.2.0'
 mod 'puppetlabs/apache', '1.2.0'
 mod 'puppetlabs/apt', '1.5.0'
+mod 'puppetlabs/aws'
 mod 'puppetlabs/concat', '1.1.2'
 mod 'puppetlabs/firewall', '1.1.2'
 mod 'puppetlabs/gcc', '0.1.0'
 mod 'puppetlabs/git', '0.1.0'
-mod 'puppetlabs/hiera'
+mod 'hunner/hiera'
 mod 'puppetlabs/inifile', '1.1.0'
 mod 'puppetlabs/java', '1.1.1'
 mod 'puppetlabs/java_ks', '1.2.4'
@@ -32,8 +33,6 @@ mod 'saz/ssh', '2.4.0'
 mod 'saz/sudo', '3.0.6'
 mod 'stephenrjohnson/puppet', '0.0.23'
 mod 'yguenane/augeas', '0.1.1'
-mod 'puppetlabs/aws'
-
 
 # Modules from Github
 mod 'puppet_cpm_modules',
