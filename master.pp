@@ -2,8 +2,25 @@ Package {
   allow_virtual => true,
 }
 
-# Do not store config for bootstrapping, puppet need to deploy a PuppetDB server first
-class { '::puppet::master':
-  storeconfigs => false,
-  environments => directory,
-}
+  class { '::puppet::master':
+    storeconfigs => false,
+    environments => directory,
+  }
+  
+  package {'deep_merge':
+    ensure   => present,
+    provider => gem
+  }
+  
+  class {'::hiera':
+    hierarchy => [
+      'puppet_role/%{role}',
+      'clientcert/%{clientcert}',
+      '%{environment}',
+      'global',
+      'aws_archi/%{host_env}/common',
+      'aws_archi/common'
+    ],
+    merge_behavior => 'deep',
+    datadir   => '/etc/puppet/hiera/%{::environment}/',
+  }
