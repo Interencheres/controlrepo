@@ -33,7 +33,7 @@ mod 'saz/ssh', '2.4.0'
 mod 'saz/sudo', '3.0.6'
 mod 'stephenrjohnson/puppet'
 mod 'yguenane/augeas', '0.1.1'
-mod 'zack/r10k', '1.5.1'
+mod 'zack/r10k'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
