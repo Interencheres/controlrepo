@@ -11,7 +11,7 @@ puppet apply --modulepath=/root/bootstrap/modules master.pp && \
 puppet apply --modulepath=/root/bootstrap/modules hiera.pp && \
 puppet apply --modulepath=/root/bootstrap/modules r10k_installation.pp && \
 # If everything went well, deploy using r10k
-/usr/local/bin/r10k deploy environment -p
+/usr/local/bin/r10k deploy environment -pv
 
 # If everything is successful, run puppet, otherwise alert
 if [ $? -eq 0 ]
