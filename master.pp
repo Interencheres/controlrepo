@@ -7,7 +7,8 @@ Package {
     environments => directory,
   }
   
-  package {'deep_merge':
+  $required_gems = ['deep_merge', 'aws-sdk-core', 'retries']
+  package {$required_gems:
     ensure   => present,
     provider => gem
   }
