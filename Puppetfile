@@ -7,7 +7,7 @@ mod 'palli/createrepo', '0.9.5'
 mod 'puppetlabs/activemq', '0.2.0'
 mod 'puppetlabs/apache', '1.2.0'
 mod 'puppetlabs/apt', '1.5.0'
-mod 'puppetlabs/aws'
+#mod 'puppetlabs/aws'
 mod 'puppetlabs/concat', '1.1.2'
 mod 'puppetlabs/firewall', '1.1.2'
 mod 'puppetlabs/gcc', '0.1.0'
@@ -39,4 +39,10 @@ mod 'zack/r10k'
 mod 'puppet_cpm_modules',
   :git    => 'git@github.com:Interencheres/puppet_cpm_modules.git',
   :ref => 'production'
+  
+# Use last version of puppet-aws
+mod 'puppetlabs-aws',
+  :git    => 'git@github.com:puppetlabs/puppetlabs-aws.git',
+  :ref => 'master'
+
 
