@@ -40,7 +40,7 @@ mod 'puppet_cpm_modules',
   :git    => 'git@github.com:Interencheres/puppet_cpm_modules.git',
   :ref => 'production'
   
-mod 'puppet-dynamic-route53',
+mod 'puppet_dynamic_route53',
   :git    => 'git@github.com:Interencheres/puppet-dynamic-route53.git',
   :ref => 'debian_support'
   
