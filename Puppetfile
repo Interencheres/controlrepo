@@ -40,9 +40,9 @@ mod 'puppet_cpm_modules',
   :git    => 'git@github.com:Interencheres/puppet_cpm_modules.git',
   :ref => 'production'
   
-mod 'puppet_dynamic_route53',
-  :git    => 'git@github.com:Interencheres/puppet-dynamic-route53.git',
-  :ref => 'debian_support'
+mod 'dynamicroute53',
+  :git    => 'git@github.com:Interencheres/dynamicroute53.git',
+  :ref => 'master'
   
 # Use last version of puppet-aws
 mod 'puppetlabs-aws',
