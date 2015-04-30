@@ -30,7 +30,7 @@ mod 'saz/sudo', '3.0.6'
 mod 'stephenrjohnson/puppet'
 mod 'yguenane/augeas', '0.1.1'
 mod 'zack/r10k'
-mod 'dhoppe/puppet-bash'
+mod 'dhoppe/bash'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
