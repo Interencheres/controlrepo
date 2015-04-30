@@ -2,26 +2,32 @@ Package {
   allow_virtual => true,
 }
 
+  $required_gems     = ['deep_merge', 'aws-sdk-core', 'retries']
+  $required_packages = ['figlet']
+  
   class { '::puppet::master':
     storeconfigs => false,
     environments => directory,
   }
   
-  $required_gems = ['deep_merge', 'aws-sdk-core', 'retries']
+  
   package {$required_gems:
     ensure   => present,
     provider => gem
   }
   
+  package {$required_packages: 
+    ensure => present
+  }
+  
   class {'::hiera':
     hierarchy => [
-      'puppet_role/%{role}',
       'clientcert/%{clientcert}',
+      'puppet_role/%{role}',
       '%{environment}',
-      'global',
-      'aws_archi/%{host_env}/common',
-      'aws_archi/common'
+      'cpm_common',
     ],
     merge_behavior => 'deep',
     datadir   => '/etc/puppet/hiera/%{::environment}/',
   }
+  
