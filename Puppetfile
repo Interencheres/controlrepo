@@ -41,6 +41,7 @@ mod 'puppet_cpm_modules',
 mod 'puppetlabs-aws',
   :git    => 'git@github.com:puppetlabs/puppetlabs-aws.git',
   :ref => 'master'
+<<<<<<< Upstream, based on branch 'production' of git@github.com:Interencheres/controlrepo.git
 
 # Try new-relic module
 mod 'newrelic_plugins',
@@ -49,3 +50,5 @@ mod 'newrelic_plugins',
   
 
 
+=======
+>>>>>>> 3cf717d Use hunner hiera module
