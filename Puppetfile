@@ -43,7 +43,7 @@ mod 'puppetlabs-aws',
   :ref => 'master'
 
 # Try new-relic module
-mod 'newrelic_plugins',
-  :git    => 'git@github.com:newrelic-platform/newrelic_plugins_puppet.git',
+mod 'newrelic',
+  :git    => 'git@github.com:fsalum/puppet-newrelic.git',
   :ref => 'master'  
 
