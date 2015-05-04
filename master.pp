@@ -20,7 +20,7 @@ Package {
     ensure => present
   }
   
-class {'::hiera':
+  class {'::hiera':
     hierarchy => [
       'clientcert/%{clientcert}',
       'puppet_role/%{role}',
