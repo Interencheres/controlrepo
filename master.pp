@@ -32,7 +32,7 @@ Package {
     eyaml_datadir   => '/etc/puppet/hiera/%{::environment}/',
     eyaml           => true,
     eyaml_extension => 'yaml',
-    eyaml_version   => latest
+    eyaml_version   => latest,
     create_keys    => false
   }
   
