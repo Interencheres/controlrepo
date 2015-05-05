@@ -2,9 +2,9 @@
 
 # Add bootstrap modules
 mkdir -p /root/bootstrap/modules
-puppet module install --modulepath=/root/bootstrap/modules zack/r10k --version 2.5.4
-puppet module install --modulepath=/root/bootstrap/modules stephenrjohnson/puppet --version 1.3.1
-puppet module install --modulepath=/root/bootstrap/modules hunner/hiera --version 1.1.1
+puppet module install --modulepath=/root/bootstrap/modules zack/r10k
+puppet module install --modulepath=/root/bootstrap/modules stephenrjohnson/puppet
+puppet module install --modulepath=/root/bootstrap/modules hunner/hiera
 
 # Configure the master, hiera, and r10k services
 puppet apply --modulepath=/root/bootstrap/modules master.pp && \
