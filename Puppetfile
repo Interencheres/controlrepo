@@ -31,6 +31,7 @@ mod 'stephenrjohnson/puppet'
 mod 'yguenane/augeas', '0.1.1'
 mod 'zack/r10k'
 mod 'dhoppe/bash'
+mod 'saz/vim'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
