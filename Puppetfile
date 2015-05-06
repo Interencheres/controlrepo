@@ -32,6 +32,7 @@ mod 'yguenane/augeas', '0.1.1'
 mod 'zack/r10k'
 mod 'dhoppe/bash'
 mod 'saz/vim'
+mod 'mayflower/php'
 
 # Modules from Github
 mod 'puppet_cpm_modules',

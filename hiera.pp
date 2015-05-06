@@ -10,7 +10,7 @@ class {'::hiera':
     hierarchy => [
       'clientcert/%{clientcert}',
       'puppet_role/%{role}',
-      '%{environment}',
+      '%{::host_env}',
       'cpm_common',
     ],
     merge_behavior  => 'deep',
