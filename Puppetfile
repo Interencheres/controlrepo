@@ -27,7 +27,6 @@ mod 'puppetlabs/vcsrepo', '1.0.1'
 mod 'richardc/datacat', '0.4.3'
 mod 'saz/ssh'
 mod 'saz/sudo'
-mod 'stephenrjohnson/puppet'
 mod 'yguenane/augeas', '0.1.1'
 mod 'zack/r10k'
 mod 'dhoppe/bash'
@@ -47,5 +46,11 @@ mod 'puppetlabs-aws',
 # Try new-relic module
 mod 'newrelic',
   :git    => 'git@github.com:fsalum/puppet-newrelic.git',
-  :ref => 'master'  
+  :ref => 'master'
+  
+# Use last version of puppet module (module from forge does not support cron..)
+mod 'puppet',
+  :git    => 'git@github.com:stephenrjohnson/puppetmodule.git',
+  :ref => 'master'
+
 
