@@ -32,6 +32,7 @@ mod 'zack/r10k'
 mod 'dhoppe/bash'
 mod 'saz/vim'
 mod 'mayflower/php'
+mod 'maxchk/varnish'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
