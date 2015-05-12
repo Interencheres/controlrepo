@@ -56,6 +56,6 @@ mod 'puppet',
 # Use last version of varnish
 mod 'varnish',
   :git => 'git@github.com:maxchk/puppet-varnish.git',
-  :ref => 'develop'
+  :ref => '1.x'
 
 
