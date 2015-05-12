@@ -32,26 +32,30 @@ mod 'zack/r10k'
 mod 'dhoppe/bash'
 mod 'saz/vim'
 mod 'mayflower/php'
-mod 'maxchk/varnish'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
-  :git    => 'git@github.com:Interencheres/puppet_cpm_modules.git',
+  :git => 'git@github.com:Interencheres/puppet_cpm_modules.git',
   :ref => 'production'
   
 # Use last version of puppet-aws
 mod 'puppetlabs-aws',
-  :git    => 'git@github.com:puppetlabs/puppetlabs-aws.git',
+  :git => 'git@github.com:puppetlabs/puppetlabs-aws.git',
   :ref => 'master'
 
 # Try new-relic module
 mod 'newrelic',
-  :git    => 'git@github.com:fsalum/puppet-newrelic.git',
+  :git => 'git@github.com:fsalum/puppet-newrelic.git',
   :ref => 'master'
   
 # Use last version of puppet module (module from forge does not support cron..)
 mod 'puppet',
-  :git    => 'git@github.com:stephenrjohnson/puppetmodule.git',
+  :git => 'git@github.com:stephenrjohnson/puppetmodule.git',
   :ref => 'master'
+  
+# Use last version of varnish
+mod 'varnish',
+  :git => 'git@github.com:maxchk/puppet-varnish.git',
+  :ref => 'develop'
 
 
