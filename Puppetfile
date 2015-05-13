@@ -8,7 +8,7 @@ mod 'puppetlabs/activemq', '0.2.0'
 mod 'puppetlabs/apache'
 # Do not use last version of apt module
 # See: https://github.com/fsalum/puppet-newrelic/issues/32
-mod 'puppetlabs/apt', '2.0.0'
+mod 'puppetlabs/apt', '1.8.0'
 mod 'puppetlabs/concat', '1.1.2'
 mod 'puppetlabs/git'
 mod 'hunner/hiera'
