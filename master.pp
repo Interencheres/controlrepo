@@ -2,7 +2,7 @@ Package {
   allow_virtual => true,
 }
 
-  $required_gems     = ['deep_merge', 'aws-sdk-core', 'retries']
+  $required_gems     = ['deep_merge', 'aws-sdk-core', 'retries', 'aws-sdk']
   $required_packages = ['figlet']
   
   class { '::puppet::master':
