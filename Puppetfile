@@ -41,9 +41,15 @@ mod 'puppet_cpm_modules',
   :ref => 'production'
   
 # Use last version of puppet-aws
+#mod 'puppetlabs-aws',
+#  :git => 'git@github.com:puppetlabs/puppetlabs-aws.git',
+#  :ref => 'master'
+
+# FIXME: Use aws module with rds support
 mod 'puppetlabs-aws',
-  :git => 'git@github.com:puppetlabs/puppetlabs-aws.git',
-  :ref => 'master'
+  :git => 'git@github.com:garethr/puppetlabs-aws.git',
+  :ref => 'rds-support'
+
 
 # Try new-relic module
 mod 'newrelic',
