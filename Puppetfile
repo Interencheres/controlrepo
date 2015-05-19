@@ -34,7 +34,6 @@ mod 'zack/r10k'
 mod 'dhoppe/bash'
 mod 'saz/vim'
 mod 'mayflower/php'
-mod 'elasticsearch/elasticsearch'
 mod 'rodjek/logrotate'
 
 # Modules from Github
@@ -67,5 +66,10 @@ mod 'puppet',
 mod 'varnish',
   :git => 'git@github.com:maxchk/puppet-varnish.git',
   :ref => '1.x'
+
+# Use last version of elasticsearch (debian 8 support)
+mod 'elasticsearch',
+  :git => 'git@github.com:elastic/puppet-elasticsearch.git'
+  :ref => '2.x'
 
 
