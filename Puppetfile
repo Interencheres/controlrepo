@@ -70,6 +70,6 @@ mod 'varnish',
 # Use last version of elasticsearch (debian 8 support)
 mod 'elasticsearch',
   :git => 'git@github.com:elastic/puppet-elasticsearch.git'
-  :ref => '2.x'
+  :ref => 'master'
 
 
