@@ -35,6 +35,7 @@ mod 'dhoppe/bash'
 mod 'saz/vim'
 mod 'mayflower/php'
 mod 'elasticsearch/elasticsearch'
+mod 'rodjek/logrotate'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
