@@ -9,7 +9,7 @@ mod 'puppetlabs/apache'
 # Do not use last version of apt module
 # See: https://github.com/fsalum/puppet-newrelic/issues/32
 mod 'puppetlabs/apt', '1.8.0'
-mod 'puppetlabs/concat', '1.1.2'
+mod 'puppetlabs/concat'
 mod 'puppetlabs/git'
 mod 'hunner/hiera'
 mod 'puppetlabs/inifile', '1.1.0'
@@ -25,7 +25,7 @@ mod 'puppetlabs/puppetdb', '3.0.1'
 mod 'puppetlabs/rabbitmq', '4.0.0'
 mod 'puppetlabs/ruby'
 mod 'puppetlabs/stdlib', '4.5.0'
-mod 'puppetlabs/vcsrepo', '1.0.1'
+mod 'puppetlabs/vcsrepo'
 mod 'richardc/datacat', '0.4.3'
 mod 'saz/ssh'
 mod 'saz/sudo'
@@ -72,4 +72,10 @@ mod 'elasticsearch',
   :git => 'git@github.com:elastic/puppet-elasticsearch.git',
   :ref => 'master'
 
+mod 'logstash',
+  :git => 'git@github.com:elastic/puppet-logstash.git',
+  :ref => 'master'
 
+mod 'kibana',
+  :git => 'git@github.com:camptocamp/puppet-kibana.git',
+  :ref => '1.0.4'
