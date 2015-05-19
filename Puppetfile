@@ -34,6 +34,7 @@ mod 'zack/r10k'
 mod 'dhoppe/bash'
 mod 'saz/vim'
 mod 'mayflower/php'
+mod 'elasticsearch/elasticsearch'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
@@ -41,14 +42,14 @@ mod 'puppet_cpm_modules',
   :ref => 'production'
   
 # Use last version of puppet-aws
-#mod 'puppetlabs-aws',
-#  :git => 'git@github.com:puppetlabs/puppetlabs-aws.git',
-#  :ref => 'master'
+mod 'puppetlabs-aws',
+  :git => 'git@github.com:puppetlabs/puppetlabs-aws.git',
+  :ref => 'master'
 
 # FIXME: Use aws module with rds support
-mod 'puppetlabs-aws',
-  :git => 'git@github.com:garethr/puppetlabs-aws.git',
-  :ref => 'rds-support'
+#mod 'puppetlabs-aws',
+#  :git => 'git@github.com:garethr/puppetlabs-aws.git',
+#  :ref => 'rds-support'
 
 
 # Try new-relic module

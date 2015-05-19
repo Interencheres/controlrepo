@@ -23,6 +23,7 @@ Package {
   class {'::hiera':
     hierarchy => [
       'clientcert/%{clientcert}',
+      'host_app/%{::host_env}/%{host_app}',
       'puppet_role/%{role}',
       '%{environment}',
       'cpm_common',
