@@ -35,6 +35,8 @@ mod 'dhoppe/bash'
 mod 'saz/vim'
 mod 'mayflower/php'
 mod 'rodjek/logrotate'
+# logstash dependency
+mod 'ispavailability/file_concat'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
