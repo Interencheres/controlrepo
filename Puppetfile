@@ -81,3 +81,7 @@ mod 'logstash',
 mod 'kibana',
   :git => 'git@github.com:camptocamp/puppet-kibana.git',
   :ref => '1.0.4'
+
+mod 'consul',
+  :git => 'git@github.com:solarkennedy/puppet-consul.git',
+  :ref => 'v1.0.0'
