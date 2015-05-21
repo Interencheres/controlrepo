@@ -85,3 +85,7 @@ mod 'kibana',
 mod 'consul',
   :git => 'git@github.com:solarkennedy/puppet-consul.git',
   :ref => 'v1.0.0'
+
+mod 'puppetlabs-haproxy',
+  :git => 'git@github.com:puppetlabs/puppetlabs-haproxy.git',
+  :ref => '1.2.0'
