@@ -62,7 +62,7 @@ mod 'newrelic',
 # Use last version of puppet module (module from forge does not support cron..)
 mod 'puppet',
   :git => 'git@github.com:stephenrjohnson/puppetmodule.git',
-  :ref => '1.3.1'
+  :ref => 'master'
   
 # Use last version of varnish
 mod 'varnish',
