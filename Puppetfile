@@ -5,11 +5,11 @@ mod 'maestrodev/rvm', '1.6.6'
 mod 'nanliu/staging', '1.0.2'
 mod 'palli/createrepo', '0.9.5'
 mod 'puppetlabs/activemq', '0.2.0'
-mod 'puppetlabs/apache'
+mod 'puppetlabs/apache', '1.4.1'
 # Do not use last version of apt module
 # See: https://github.com/fsalum/puppet-newrelic/issues/32
 mod 'puppetlabs/apt', '1.8.0'
-mod 'puppetlabs/concat'
+mod 'puppetlabs/concat', '1.2.2'
 mod 'puppetlabs/git'
 mod 'hunner/hiera'
 mod 'puppetlabs/inifile', '1.1.0'
@@ -62,7 +62,7 @@ mod 'newrelic',
 # Use last version of puppet module (module from forge does not support cron..)
 mod 'puppet',
   :git => 'git@github.com:stephenrjohnson/puppetmodule.git',
-  :ref => 'master'
+  :ref => '1.3.1'
   
 # Use last version of varnish
 mod 'varnish',
