@@ -84,7 +84,7 @@ mod 'kibana',
 
 mod 'consul',
   :git => 'git@github.com:Interencheres/puppet-consul.git',
-  :ref => 'check_packages'
+  :ref => 'use_systemd'
 
 mod 'puppetlabs-haproxy',
   :git => 'git@github.com:puppetlabs/puppetlabs-haproxy.git',
