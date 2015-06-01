@@ -37,6 +37,7 @@ mod 'mayflower/php'
 mod 'rodjek/logrotate'
 # logstash dependency
 mod 'ispavailability/file_concat'
+mod 'thejandroman/kibana3'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
@@ -78,9 +79,9 @@ mod 'logstash',
   :git => 'git@github.com:elastic/puppet-logstash.git',
   :ref => 'master'
 
-mod 'kibana',
-  :git => 'git@github.com:camptocamp/puppet-kibana.git',
-  :ref => '1.0.8'
+#mod 'kibana',
+#  :git => 'git@github.com:camptocamp/puppet-kibana.git',
+#  :ref => '1.0.8'
 
 mod 'consul',
   :git => 'git@github.com:Interencheres/puppet-consul.git',
