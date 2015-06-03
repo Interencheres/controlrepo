@@ -38,6 +38,7 @@ mod 'rodjek/logrotate'
 # logstash dependency
 mod 'ispavailability/file_concat'
 mod 'thejandroman/kibana3'
+mod 'saz/locales'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
