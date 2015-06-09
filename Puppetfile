@@ -68,11 +68,6 @@ mod 'puppetlabs-aws',
 mod 'puppet',
   :git => 'git@github.com:stephenrjohnson/puppetmodule.git',
   :ref => 'master'
-  
-# Use last version of varnish
-mod 'varnish',
-  :git => 'git@github.com:maxchk/puppet-varnish.git',
-  :ref => '1.x'
 
 # Use last version of elasticsearch (debian 8 support)
 mod 'elasticsearch',
@@ -94,3 +89,8 @@ mod 'consul',
 mod 'puppetlabs-haproxy',
   :git => 'git@github.com:puppetlabs/puppetlabs-haproxy.git',
   :ref => '1.2.0'
+
+# Try cpm version of varnish
+mod 'varnish',
+  :git => 'git@github.com:Interencheres/puppet_cpm_varnish.git',
+  :ref => 'puppet_dev'
