@@ -48,7 +48,7 @@ mod 'puppet_cpm_modules',
 # Use last version of puppet-aws
 mod 'puppetlabs-aws',
   :git => 'git@github.com:puppetlabs/puppetlabs-aws.git',
-  :ref => '1.0.0'
+  :ref => 'master'
 
 # FIXME: Use aws module with rds support
 #mod 'puppetlabs-aws',
