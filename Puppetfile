@@ -39,6 +39,7 @@ mod 'rodjek/logrotate'
 mod 'ispavailability/file_concat'
 mod 'thejandroman/kibana3'
 mod 'saz/locales'
+mod 'luxflux/openvpn'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
