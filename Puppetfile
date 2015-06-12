@@ -41,6 +41,7 @@ mod 'ispavailability/file_concat'
 mod 'thejandroman/kibana3'
 mod 'saz/locales'
 mod 'luxflux/openvpn'
+mod 'duritong/sysctl'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
