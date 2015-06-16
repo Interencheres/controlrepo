@@ -25,7 +25,7 @@ mod 'puppetlabs/postgresql', '3.3.3'
 mod 'puppetlabs/puppetdb', '3.0.1'
 mod 'puppetlabs/rabbitmq', '4.0.0'
 mod 'puppetlabs/ruby'
-mod 'puppetlabs/stdlib', '4.5.0'
+mod 'puppetlabs/stdlib', '4.6.0'
 mod 'puppetlabs/vcsrepo'
 mod 'richardc/datacat', '0.4.3'
 mod 'saz/ssh', '2.6.0'
@@ -68,11 +68,6 @@ mod 'puppetlabs-aws',
 mod 'puppet',
   :git => 'git@github.com:stephenrjohnson/puppetmodule.git',
   :ref => 'master'
-  
-# Use last version of varnish
-mod 'varnish',
-  :git => 'git@github.com:maxchk/puppet-varnish.git',
-  :ref => '1.x'
 
 # Use last version of elasticsearch (debian 8 support)
 mod 'elasticsearch',
