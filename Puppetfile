@@ -89,8 +89,3 @@ mod 'consul',
 mod 'puppetlabs-haproxy',
   :git => 'git@github.com:puppetlabs/puppetlabs-haproxy.git',
   :ref => '1.2.0'
-
-# Try cpm version of varnish
-mod 'varnish',
-  :git => 'git@github.com:Interencheres/puppet_cpm_varnish.git',
-  :ref => 'production'
