@@ -46,7 +46,7 @@ mod 'duritong/sysctl'
 # Modules from Github
 mod 'puppet_cpm_modules',
   :git => 'git@github.com:Interencheres/puppet_cpm_modules.git',
-  :ref => 'production'
+  :ref => 'puppet_dev'
   
 # Use last version of puppet-aws
 mod 'puppetlabs-aws',
