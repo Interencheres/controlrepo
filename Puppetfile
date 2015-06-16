@@ -46,7 +46,7 @@ mod 'duritong/sysctl'
 # Modules from Github
 mod 'puppet_cpm_modules',
   :git => 'git@github.com:Interencheres/puppet_cpm_modules.git',
-  :ref => 'puppet_dev'
+  :ref => 'production'
   
 # Use last version of puppet-aws
 mod 'puppetlabs-aws',
@@ -93,4 +93,4 @@ mod 'puppetlabs-haproxy',
 # Try cpm version of varnish
 mod 'varnish',
   :git => 'git@github.com:Interencheres/puppet_cpm_varnish.git',
-  :ref => 'puppet_dev'
+  :ref => 'production'
