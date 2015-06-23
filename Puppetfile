@@ -76,7 +76,7 @@ mod 'elasticsearch',
 
 mod 'logstash',
   :git => 'git@github.com:elastic/puppet-logstash.git',
-  :ref => 'master'
+  :ref => '0.5.1'
 
 #mod 'kibana',
 #  :git => 'git@github.com:camptocamp/puppet-kibana.git',
