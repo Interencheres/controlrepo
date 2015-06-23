@@ -78,7 +78,7 @@ mod 'logstash',
   :git => 'git@github.com:elastic/puppet-logstash.git',
   :ref => '0.5.1'
 
-mod 'kibana',
+mod 'kibana4',
   :git => 'git@github.com:lesaux/puppet-kibana4.git',
   :ref => 'master'
 
