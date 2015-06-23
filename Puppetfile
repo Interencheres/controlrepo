@@ -38,7 +38,6 @@ mod 'mayflower/php'
 mod 'rodjek/logrotate'
 # logstash dependency
 mod 'ispavailability/file_concat'
-mod 'thejandroman/kibana3'
 mod 'saz/locales'
 mod 'luxflux/openvpn'
 mod 'duritong/sysctl'
@@ -78,9 +77,9 @@ mod 'logstash',
   :git => 'git@github.com:elastic/puppet-logstash.git',
   :ref => '0.5.1'
 
-#mod 'kibana',
-#  :git => 'git@github.com:camptocamp/puppet-kibana.git',
-#  :ref => '1.0.8'
+mod 'kibana',
+  :git => 'git@github.com:evenup/evenup-kibana.git',
+  :ref => 'master'
 
 mod 'consul',
   :git => 'git@github.com:Interencheres/puppet-consul.git',
