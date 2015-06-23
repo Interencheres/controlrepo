@@ -42,6 +42,7 @@ mod 'maestrodev/wget'
 mod 'saz/locales'
 mod 'luxflux/openvpn'
 mod 'duritong/sysctl'
+mod 'camptocamp/archive'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
