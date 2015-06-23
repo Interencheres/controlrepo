@@ -38,6 +38,7 @@ mod 'mayflower/php'
 mod 'rodjek/logrotate'
 # logstash dependency
 mod 'ispavailability/file_concat'
+mod 'maestrodev/wget'
 mod 'saz/locales'
 mod 'luxflux/openvpn'
 mod 'duritong/sysctl'
