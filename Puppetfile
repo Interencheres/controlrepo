@@ -79,7 +79,7 @@ mod 'logstash',
   :ref => '0.5.1'
 
 mod 'kibana',
-  :git => 'git@github.com:evenup/evenup-kibana.git',
+  :git => 'git@github.com:lesaux/puppet-kibana4.git',
   :ref => 'master'
 
 mod 'consul',
