@@ -43,7 +43,6 @@ mod 'saz/locales'
 mod 'luxflux/openvpn'
 mod 'duritong/sysctl'
 mod 'camptocamp/archive'
-mod 'landcareresearch/amazon_s3'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
@@ -91,3 +90,7 @@ mod 'consul',
 mod 'puppetlabs-haproxy',
   :git => 'git@github.com:puppetlabs/puppetlabs-haproxy.git',
   :ref => '1.2.0'
+
+mod 'amazon_s3',
+  :git => 'git@bitbucket.org:landcareresearch/amazon_s3',
+  :ref => 'v0.1.4'
