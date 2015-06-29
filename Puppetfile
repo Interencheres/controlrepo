@@ -92,5 +92,5 @@ mod 'puppetlabs-haproxy',
   :ref => '1.2.0'
 
 mod 'amazon_s3',
-  :git => 'git@bitbucket.org:landcareresearch/amazon_s3',
+  :git => 'git@bitbucket.org:landcareresearch/puppet-amazon-s3.git',
   :ref => 'v0.1.4'
