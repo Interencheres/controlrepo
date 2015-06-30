@@ -73,7 +73,7 @@ mod 'puppet',
 # Use last version of elasticsearch (debian 8 support)
 mod 'elasticsearch',
   :git => 'git@github.com:elastic/puppet-elasticsearch.git',
-  :ref => 'master'
+  :ref => 'd178a8cea320979c93037afc52f20032da41cb4c'
 
 mod 'logstash',
   :git => 'git@github.com:elastic/puppet-logstash.git',
