@@ -94,3 +94,7 @@ mod 'puppetlabs-haproxy',
 mod 'amazon_s3',
   :git => 'https://bitbucket.org/landcareresearch/puppet-amazon-s3.git',
   :ref => 'v0.1.4'
+
+mod 'consul_alerts',
+  :git => 'git@github.com:Interencheres/puppet-consul_alerts.git',
+  :ref => 'debian8_support
