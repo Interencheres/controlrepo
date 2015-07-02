@@ -97,4 +97,4 @@ mod 'amazon_s3',
 
 mod 'consul_alerts',
   :git => 'git@github.com:Interencheres/puppet-consul_alerts.git',
-  :ref => 'debian8_support
+  :ref => 'debian8_support'
