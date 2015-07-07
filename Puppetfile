@@ -98,3 +98,7 @@ mod 'amazon_s3',
 mod 'consul_alerts',
   :git => 'git@github.com:Interencheres/puppet-consul_alerts.git',
   :ref => 'debian8_support'
+
+mod 'varnish',
+  :git => 'git@github.com:camptocamp/puppet-varnish.git'
+  :ref => '1.99.20'
