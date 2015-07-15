@@ -110,3 +110,6 @@ mod 'systemd',
   :git => 'git@github.com:camptocamp/puppet-systemd.git',
   :ref => '0.1.15'
 
+mod 'varnish_config',
+  :git => 'git@github.com:Interencheres/puppet_cpm_varnish.git',
+  :ref => 'refacto_mono_instance'
