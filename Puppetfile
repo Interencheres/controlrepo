@@ -43,6 +43,9 @@ mod 'saz/locales'
 mod 'luxflux/openvpn'
 mod 'duritong/sysctl'
 mod 'camptocamp/archive'
+# varnish dependencies
+mod 'herculesteam/augeasproviders_core', '2.1.1'
+mod 'herculesteam/augeasproviders_shellvar', '2.1.1'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
@@ -98,3 +101,12 @@ mod 'amazon_s3',
 mod 'consul_alerts',
   :git => 'git@github.com:Interencheres/puppet-consul_alerts.git',
   :ref => 'debian8_support'
+
+mod 'varnish',
+  :git => 'git@github.com:camptocamp/puppet-varnish.git',
+  :ref => '1.99.20'
+
+mod 'systemd',
+  :git => 'git@github.com:camptocamp/puppet-systemd.git',
+  :ref => '0.1.15'
+
