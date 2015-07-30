@@ -68,9 +68,9 @@ mod 'puppetlabs-aws',
 
 
 # Try new-relic module
-# mod 'newrelic',
-#  :git => 'git@github.com:fsalum/puppet-newrelic.git',
-#  :ref => 'master'
+mod 'newrelic',
+  :git => 'git@github.com:fsalum/puppet-newrelic.git',
+  :ref => '4.1.1'
   
 # Use last version of puppet module (module from forge does not support cron..)
 mod 'puppet',
