@@ -48,7 +48,6 @@ mod 'herculesteam/augeasproviders_core', '2.1.1'
 mod 'herculesteam/augeasproviders_shellvar', '2.1.1'
 mod 'leinaddm/htpasswd'
 mod 'pdxcat/collectd'
-mod 'golja/influxdb'
 mod 'bfraser/grafana'
 
 # Modules from Github
@@ -117,3 +116,7 @@ mod 'systemd',
 mod 'varnish_config',
   :git => 'git@github.com:Interencheres/puppet_cpm_varnish.git',
   :ref => 'refacto_mono_instance'
+
+mod 'influxdb':
+  :git => 'git@github.com:n1tr0g/golja-influxdb.git',
+  :ref => 'master'
