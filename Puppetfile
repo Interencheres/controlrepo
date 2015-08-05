@@ -117,6 +117,6 @@ mod 'varnish_config',
   :git => 'git@github.com:Interencheres/puppet_cpm_varnish.git',
   :ref => 'refacto_mono_instance'
 
-mod 'influxdb':
+mod 'influxdb',
   :git => 'git@github.com:n1tr0g/golja-influxdb.git',
   :ref => 'master'
