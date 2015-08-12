@@ -50,6 +50,8 @@ mod 'leinaddm/htpasswd'
 mod 'pdxcat/collectd'
 # statsd dependencies
 mod 'puppetlabs/nodejs'
+# send puppet reports to logstash
+mod 'elasticsearch/logstash_reporter'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
