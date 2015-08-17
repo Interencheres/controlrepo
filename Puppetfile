@@ -77,7 +77,7 @@ mod 'newrelic',
 # Use last version of puppet module (module from forge does not support cron..)
 mod 'puppet',
   :git => 'git@github.com:stephenrjohnson/puppetmodule.git',
-  :ref => '629eb45152366eae641b60a2cb740b61f2597198cd ../con  '
+  :ref => '629eb45152366eae641b60a2cb740b61f2597198cd'
 
 # Use last version of elasticsearch (debian 8 support)
 mod 'elasticsearch',
