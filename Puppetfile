@@ -52,7 +52,6 @@ mod 'pdxcat/collectd'
 mod 'puppetlabs/nodejs'
 # send puppet reports to logstash
 mod 'elasticsearch/logstash_reporter'
-mod 'puppet/rundeck'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
@@ -132,3 +131,7 @@ mod 'grafana',
 mod 'statsd',
   :git => 'git@github.com:albustax/puppet-statsd.git',
   :ref => 'feat/change_influxdb_version'
+
+mod 'rundeck',
+  :git => 'git@github.com:puppet-community/puppet-rundeck.git',
+  :ref => 'master'
