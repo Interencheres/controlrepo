@@ -9,6 +9,8 @@ file {'/etc/puppet/hiera':
 class {'::hiera':
     hierarchy => [
       'clientcert/%{clientcert}',
+      'puppet_role/%{role}/%{::host_env}/%{host_app}',
+      'host_app/%{::host_env}/%{host_app}',
       'puppet_role/%{role}',
       '%{::host_env}',
       'cpm_common',
