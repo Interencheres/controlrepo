@@ -133,8 +133,8 @@ mod 'statsd',
   :ref => 'feat/change_influxdb_version'
 
 mod 'rundeck',
-  :git => 'git@github.com:puppet-community/puppet-rundeck.git',
-  :ref => 'master'
+  :git => 'git@github.com:Interencheres/puppet-rundeck.git',
+  :ref => 'remove_archive_dependencie'
 
 mod 'archive',
   :git => 'git@github.com:camptocamp/puppet-archive.git',
