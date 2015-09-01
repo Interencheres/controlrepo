@@ -52,6 +52,8 @@ mod 'pdxcat/collectd'
 mod 'puppetlabs/nodejs'
 # send puppet reports to logstash
 mod 'elasticsearch/logstash_reporter'
+# Rundeck dependencies
+mod 'camptocamp/archive'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
