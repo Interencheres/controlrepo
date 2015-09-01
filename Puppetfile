@@ -42,7 +42,7 @@ mod 'maestrodev/wget'
 mod 'saz/locales'
 mod 'luxflux/openvpn'
 mod 'duritong/sysctl'
-mod 'camptocamp/archive'
+#mod 'camptocamp/archive'
 # varnish dependencies
 mod 'herculesteam/augeasproviders_core', '2.1.1'
 mod 'herculesteam/augeasproviders_shellvar', '2.1.1'
@@ -135,4 +135,8 @@ mod 'statsd',
 mod 'rundeck',
   :git => 'git@github.com:puppet-community/puppet-rundeck.git',
   :ref => 'master'
+
+mod 'archive',
+  :git => 'git@github.com:camptocamp/puppet-archive.git',
+  :ref => '0.8.1'
 
