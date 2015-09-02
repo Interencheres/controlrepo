@@ -134,7 +134,7 @@ mod 'statsd',
 
 mod 'rundeck',
   :git => 'git@github.com:Interencheres/puppet-rundeck.git',
-  :ref => 'remove_archive_dependencie'
+  :ref => 'update_rundeck_config_template'
 
 mod 'archive',
   :git => 'git@github.com:camptocamp/puppet-archive.git',
