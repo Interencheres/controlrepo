@@ -52,6 +52,7 @@ mod 'pdxcat/collectd'
 mod 'puppetlabs/nodejs'
 # send puppet reports to logstash
 mod 'elasticsearch/logstash_reporter'
+mod 'jfryman/nginx'
 
 # Modules from Github
 mod 'puppet_cpm_modules',
