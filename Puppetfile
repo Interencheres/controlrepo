@@ -35,7 +35,8 @@ mod 'zack/r10k'
 mod 'dhoppe/bash'
 mod 'saz/vim'
 mod 'mayflower/php'
-mod 'rodjek/logrotate' 'v1.0.2'
+# FIXME: We need master for su statement
+mod 'rodjek/logrotate' 'master'
 # logstash dependency
 mod 'ispavailability/file_concat'
 mod 'maestrodev/wget'
