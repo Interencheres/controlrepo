@@ -35,8 +35,6 @@ mod 'zack/r10k'
 mod 'dhoppe/bash'
 mod 'saz/vim'
 mod 'mayflower/php'
-# FIXME: We need master for su statement
-mod 'rodjek/logrotate' 'master'
 # logstash dependency
 mod 'ispavailability/file_concat'
 mod 'maestrodev/wget'
@@ -141,4 +139,9 @@ mod 'rundeck',
 mod 'archive',
   :git => 'git@github.com:camptocamp/puppet-archive.git',
   :ref => '0.8.1'
+
+# FIXME: We need master for su statement
+mod 'logrotate',
+  :git => 'git@github.com:rodjek/puppet-logrotate.git',
+  :ref => 'master'
 
