@@ -35,7 +35,7 @@ mod 'zack/r10k'
 mod 'dhoppe/bash'
 mod 'saz/vim'
 mod 'mayflower/php'
-mod 'rodjek/logrotate'
+mod 'rodjek/logrotate' 'v1.0.2'
 # logstash dependency
 mod 'ispavailability/file_concat'
 mod 'maestrodev/wget'
