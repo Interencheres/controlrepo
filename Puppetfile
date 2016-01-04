@@ -122,7 +122,7 @@ mod 'varnish_config',
 
 mod 'influxdb',
   :git => 'git@github.com:n1tr0g/golja-influxdb.git',
-  :ref => 'master'
+  :ref => '2.1.1'
 
 mod 'grafana',
   :git => 'git@github.com:bfraser/puppet-grafana.git',
