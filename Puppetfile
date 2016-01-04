@@ -90,7 +90,7 @@ mod 'logstash',
 
 mod 'kibana4',
   :git => 'git@github.com:lesaux/puppet-kibana4.git',
-  :ref => 'master'
+  :ref => 'c53bc016848931cd60331c5164b92a74dcd8f5ce'
 
 mod 'consul',
   :git => 'git@github.com:Interencheres/puppet-consul.git',
