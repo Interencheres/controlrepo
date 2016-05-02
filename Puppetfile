@@ -126,7 +126,7 @@ mod 'influxdb',
 
 mod 'grafana',
   :git => 'git@github.com:bfraser/puppet-grafana.git',
-  :ref => 'master'
+  :ref => 'v2.5.0'
 
 mod 'statsd',
   :git => 'git@github.com:albustax/puppet-statsd.git',
