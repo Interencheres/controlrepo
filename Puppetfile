@@ -3,6 +3,7 @@ forge 'http://forge.puppetlabs.com'
 # Modules from the Puppet Forge
 mod 'maestrodev/rvm', '1.6.6'
 mod 'nanliu/staging', '1.0.2'
+mod 'KyleAnderson/consul', '1.1.0'
 mod 'palli/createrepo', '0.9.5'
 mod 'puppetlabs/activemq', '0.2.0'
 mod 'puppetlabs/apache', '1.5.0'
@@ -92,9 +93,9 @@ mod 'kibana4',
   :git => 'git@github.com:lesaux/puppet-kibana4.git',
   :ref => '6bdaf25f2e94f97de061c1e12487463cd810e38d'
 
-mod 'consul',
-  :git => 'git@github.com:Interencheres/puppet-consul.git',
-  :ref => 'cpm'
+#mod 'consul',
+#  :git => 'git@github.com:Interencheres/puppet-consul.git',
+#  :ref => 'cpm'
 
 mod 'puppetlabs-haproxy',
   :git => 'git@github.com:puppetlabs/puppetlabs-haproxy.git',
