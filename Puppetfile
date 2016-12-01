@@ -4,6 +4,7 @@ forge 'http://forge.puppetlabs.com'
 mod 'maestrodev/rvm', '1.6.6'
 mod 'nanliu/staging', '1.0.2'
 mod 'KyleAnderson/consul', '1.1.0'
+mod 'puppet/archive', '1.1.2'
 mod 'palli/createrepo', '0.9.5'
 mod 'puppetlabs/activemq', '0.2.0'
 mod 'puppetlabs/apache', '1.5.0'
@@ -137,9 +138,9 @@ mod 'rundeck',
   :git => 'git@github.com:Interencheres/puppet-rundeck.git',
   :ref => 'update_rundeck_config_template'
 
-mod 'archive',
-  :git => 'git@github.com:camptocamp/puppet-archive.git',
-  :ref => '0.8.1'
+#mod 'archive',
+#  :git => 'git@github.com:camptocamp/puppet-archive.git',
+#  :ref => '0.8.1'
 
 # FIXME: We need master for su statement
 mod 'logrotate',
