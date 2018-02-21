@@ -5,7 +5,6 @@ mod 'maestrodev/rvm', '1.6.6'
 mod 'nanliu/staging', '1.0.2'
 mod 'palli/createrepo', '0.9.5'
 mod 'puppetlabs/activemq', '0.2.0'
-mod 'puppetlabs/apache', '1.5.0'
 # Do not use last version of apt module
 # See: https://github.com/fsalum/puppet-newrelic/issues/32
 mod 'puppetlabs/apt', '1.8.0'
@@ -146,3 +145,6 @@ mod 'logrotate',
   :git => 'git@github.com:rodjek/puppet-logrotate.git',
   :ref => 'master'
 
+mod 'apache',
+  :git => 'git@github.com:Interencheres/puppetlabs-apache.git',
+  :ref => 'x_forward_for'
